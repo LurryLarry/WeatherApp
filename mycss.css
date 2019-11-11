@@ -1,0 +1,43 @@
+body {
+  margin-top: 7vw;
+  background-image: url("weather_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#main {
+  
+  border-radius: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: auto;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+}
+
+#ikoni {
+  text-align: center;
+  size: 50px;
+}
+
+#sää {
+  text-align: center;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+}
+
+input[type="text"] {
+  text-align: center;
+  color: black;
+  margin-bottom: 0px;
+  
+}
+
+.btn {
+  margin-bottom: 40px;
+  display: block;
+}

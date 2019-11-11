@@ -1,11 +1,36 @@
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
+  <meta charset="utf-8">
+  <title>To Do List</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="mycss.css">
   <script src="myjs.js"></script>
 </head>
 
 <body>
-  
+  <h1>Päivän sää</h1>
+  <div id="main">
+    <input type="text" id="haku" placeholder="Kaupungin nimi..."></input>
+    <a href="#" class="hae-tiedot btn green" onclick="haeTiedot()">Hae säätiedot</a>
+    <h4 id="kaupunki"></h4>
+    <div id="ikoni"></div>
+    <br>
+    <div id="koordinaatit"></div>
+    <div id="kuvaus"></div>
+    <div id="lämpö"></div>
+    <div id="tuuli"></div>
+
+
+
+  </div>
+
+
 </body>
 
 </html>
